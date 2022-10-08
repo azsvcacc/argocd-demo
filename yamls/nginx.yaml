@@ -6,7 +6,7 @@ metadata:
     namespace: argocd-demo-app-ns
   name: nginx
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: nginx

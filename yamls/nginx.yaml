@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: nginx
-    namespace: argocd-demo-app-ns created
+    namespace: argocd-demo-app-ns
   name: nginx
 spec:
   replicas: 1

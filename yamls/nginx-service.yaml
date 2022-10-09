@@ -4,7 +4,7 @@ metadata:
   labels:
     app: nginx
   name: nginx
-  namespace: argocd-demo-app-ns
+  namespace: default
 spec:
   ports:
   - port: 80
